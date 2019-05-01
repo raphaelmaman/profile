@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+img {
+
+  height: 150px;
+  border-radius: 50%;
+
+}
+
+h1 {
+  color : #272727;
+}
+
+h2 {
+  color : #383939
+}
+
+p {
+  color: #5E5E5E
+}
+
+body {
+  background-color: #F9F9F9;
+  font-family: 'Lato', sans-serif;
+}
+
+.introduction {
+background-color: #FFFFFF;
+border-radius: 8px;
+text-align: center;
+padding : 20px;
+padding-bottom : 40px;
+margin: 20px 0px;
+box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+border: 50px;
+}
+
+.first_part {
+background-color: #FFFFFF;
+border-radius: 8px;
+text-align: center;
+padding : 20px;
+margin: 20px 0px;
+border: 50px;
+box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+.second_part {
+background-color: #FFFFFF;
+border-radius: 8px;
+text-align: center;
+padding : 20px;
+margin: 20px 0px;
+border: 50px;
+box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+.third_part {
+background-color: #FFFFFF;
+border-radius: 8px;
+text-align: center;
+padding : 20px;
+margin: 20px 0px;
+border: 50px;
+box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+.socials {
+background-color: #FFFFFF;
+border-radius: 8px;
+text-align: center;
+padding : 20px;
+margin: 20px 0px;
+border: 50px;
+box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+ul {
+list-style: none;
+padding-left: 0px;
+}
+
+ul > li {
+display: inline-block;
+  padding: 0px 20px;
+  font-size: 50px;
+}
+
+ul > li > i:hover {
+  color: red;
+}
+
+a {
+background-color: #BC2222;
+color : #FFFFFF;
+padding: 15px 20px;
+border-radius: 4px;
+}
+
+a:hover {
+    background-color: red;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 40px auto;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 40px auto;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 40px auto;
+  }
+}
